@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Google"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="#00f0f0"
+        android:onClick="open_the_web"/>
+
+    <Button
+        android:id="@+id/bmaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Maps"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="#00f0f0"
+        android:onClick="open_the_web"/>
+
+    <Button
+        android:id="@+id/bemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send an email"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="#00f0f0"
+        android:onClick="open_the_web"/>
+
+    <Button
+        android:id="@+id/bsendImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send an image"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="#00f0f0"
+        android:onClick="open_the_web"/>
+
+    <Button
+        android:id="@+id/bshareMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share a message"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="#00f0f0"
+        android:onClick="open_the_web"/>
+
+    <Button
+        android:id="@+id/bcall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call your friend"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="#00f0f0"
+        android:onClick="open_the_web"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
